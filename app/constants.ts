@@ -1,1 +1,1 @@
-export const GLOBAL_DISABLED = true;
+export const GLOBAL_ENABLED = () => localStorage.getItem('tp-enabled') === 'yes';

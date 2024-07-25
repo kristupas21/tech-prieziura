@@ -9,13 +9,13 @@ import { AppAffix } from '@/components/app-affix/app-affix';
 import PageSection from '@/app/[locale]/page-section';
 import SectionQuery from '@/components/section-query/section-query';
 import SectionStats from '@/components/section-stats/section-stats';
-import { GLOBAL_DISABLED } from '@/app/constants';
+import { GLOBAL_ENABLED } from '@/app/constants';
 
 export default function Home() {
   const t = useTranslations();
   const { el2: { targetRef: t2 } } = useMenuScroll();
 
-  if (GLOBAL_DISABLED) {
+  if (!GLOBAL_ENABLED()) {
     return <main>Site under construction</main>;
   }
 
