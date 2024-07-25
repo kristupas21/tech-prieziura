@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Center } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import variables from '@/styles/variables.module.scss';
+import { GLOBAL_DISABLED } from '@/app/constants';
 
 const vars = variables as { mobile: string; tablet: string; };
 const width = 1240;
@@ -16,6 +17,10 @@ export default function Certs() {
   const t = useTranslations();
   const mobile = useMediaQuery(`(max-width: ${vars.mobile}`);
   const tablet = useMediaQuery(`(max-width: ${vars.tablet}`);
+
+  if (GLOBAL_DISABLED) {
+    return <main>Certificates</main>;
+  }
 
   const getSize = (s: number) => {
     if (mobile) return s / 3;
