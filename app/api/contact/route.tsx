@@ -9,12 +9,7 @@ function normalizeValues(data: QueryFormData): Omit<QueryFormData, 'phone'> & { 
   };
 }
 
-const disabled = true;
-
 export async function POST(req: NextRequest) {
-  if (disabled) {
-    return Promise.resolve();
-  }
   const data = await req.json();
   const { email, text, phone } = normalizeValues(data);
 
