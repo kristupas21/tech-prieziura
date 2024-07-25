@@ -1,0 +1,7 @@
+Options -Indexes
+DirectoryIndex index.html
+SetEnv NODE_ENV production
+SetEnv EMAIL_ADDRESS “teiura@tech-prieziura.lt”
+SetEnv EMAIL_USER “teiura”
+SetEnv EMAIL_PASS=“Pavasaris123!”
+SetEnv EMAIL_TARGET=“kristupas.rybakovas@gmail.com”

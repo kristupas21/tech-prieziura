@@ -1,3 +1,24 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next", "prettier", "eslint-config-airbnb"],
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/require-default-props": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+   ]
+  },
+  "globals": {
+    "React": true,
+    "JSX": true
+  }
 }

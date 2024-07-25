@@ -1,0 +1,60 @@
+{
+  "page": {
+    "objects": "įgyvendintų objektų",
+    "exp": "metų",
+    "exp1": "patirtis",
+    "intro": "Intro",
+    "introHeading": "Neparduodame parašo.",
+    "introText": "Tai yra demonstracinis tekstas. Svetainė šiuo metu kuriama. Svetainė yra paleista tik testavimo tikslais.",
+    "services": "Paslaugos",
+    "reviews": "Klientų atsiliepimai",
+    "query": "Rašykite užklausą"
+  },
+
+  "navbar": {
+    "query": "Rašykite užklausą",
+    "certs": "Sertifikatai",
+    "home": "Pagrindinis"
+  },
+
+  "footer": {
+    "copyright": "Visos teisės saugomos",
+    "home": "Pagrindinis",
+    "certs": "Sertifikatai",
+    "bio": "Biografija",
+    "services": "Paslaugos"
+  },
+
+  "query": {
+    "email": "Jūsų el. paštas",
+    "emailInvalid": "Neteisingas el. paštas.",
+    "text": "Jūsų užklausa",
+    "textPlaceholder": "Rašykite tekstą čia",
+    "textRequired": "Laukas negali būti tuščias.",
+    "submit": "Pateikti",
+    "oops": "Oi!",
+    "errorMessage": "Negalėjome pateikti jūsų užklausos dėl nenumatytos klaidos.",
+    "tryAgain": "Bandykite dar kartą",
+    "thanks": "Ačiū!",
+    "successMessage": "Jūsų užklausa sėkmingai išsiųsta. Netrukus atsakysime.",
+    "phone": "Jūsų telefono nr.",
+    "phoneInvalid": "Neteisingas telefono numeris."
+  },
+
+  "certs": {
+    "title": "Kvalifikacijos Atestatai",
+    "projectCert": "Statinio projekto vadovo atestatas",
+    "supervisionCert": "Statinio tech. priežiūros vadovo atestatas"
+  },
+
+  "services": {
+    "link": "Visos paslaugos",
+    "supervision": "Statinio techninė priežiūra",
+    "management": "Vadovavimas statinio projektui",
+    "consultancy": "Konsultacija"
+  },
+
+  "about": {
+    "link": "Biografija"
+  }
+}

@@ -1,0 +1,79 @@
+@import '_mixins';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--mantine-color-primary-3);
+  color: var(--mantine-color-secondary-9);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6rem;
+  min-height: calc(100vh - 74px);
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+
+  @include mobile() {
+    padding: 6rem 1rem;
+  }
+}
+
+h1 {
+  font-size: var(--font-xl);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: var(--font-xl);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+
+  @include bp-lg() {
+    font-size: var(--font-l);
+  }
+}
+
+h3 {
+  font-size: var(--font-m);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.01rem;
+}
+
+h4 {
+  font-size: var(--font-xs);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+h5 {
+  font-size: var(--font-m);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.01rem;
+}

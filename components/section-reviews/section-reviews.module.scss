@@ -1,0 +1,29 @@
+.indicator {
+  background-color: var(--mantine-color-secondary-8);
+}
+
+.indicators {
+  bottom: calc(-1 * var(--mantine-spacing-md));
+}
+
+.root {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.control {
+  background-color: var(--mantine-color-primary-1);
+  color: var(--mantine-color-primary-9);
+
+  &[data-inactive] {
+    opacity: 0;
+    cursor: default;
+  }
+}
+
+.avatar {
+  border: 1px solid var(--mantine-color-primary-2);
+  border-bottom-left-radius: var(--mantine-radius-default);
+  border-top-left-radius: var(--mantine-radius-default);
+}
+

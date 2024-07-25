@@ -1,0 +1,60 @@
+{
+  "page": {
+    "objects": "objects built",
+    "exp": "yrs",
+    "exp1": "of experience",
+    "intro": "Intro",
+    "introHeading": "Not selling a signature.",
+    "introText": "This is a demo text. Website is under construction. Website is deployed due to test purposes only.",
+    "services": "Services",
+    "reviews": "Client reviews",
+    "query": "Write query"
+  },
+
+  "navbar": {
+    "query": "Write query",
+    "certs": "Certificates",
+    "home": "Home"
+  },
+
+  "footer": {
+    "copyright": "All rights reserved",
+    "home": "Home",
+    "certs": "Certificates",
+    "bio": "Bio",
+    "services": "Services"
+  },
+
+  "query": {
+    "email": "Your email",
+    "emailInvalid": "Invalid email.",
+    "text": "Your query",
+    "textPlaceholder": "Write text here",
+    "textRequired": "Field cannot be empty.",
+    "submit": "Submit",
+    "oops": "Oops!",
+    "errorMessage": "We were unable to submit your query due to an unexpected error.",
+    "tryAgain": "Try again",
+    "thanks": "Thank you!",
+    "successMessage": "Your query was successfully sent. We will respond soon.",
+    "phone": "Your phone number",
+    "phoneInvalid": "Invalid phone number."
+  },
+
+  "certs": {
+    "title": "Qualification Certificates",
+    "projectCert": "Project manager certificate",
+    "supervisionCert": "Technical supervision certificate"
+  },
+
+  "services": {
+    "link": "All services",
+    "supervision": "Building supervision",
+    "management": "Building project management",
+    "consultancy": "Consultancy"
+  },
+
+  "about": {
+    "link": "Full bio"
+  }
+}

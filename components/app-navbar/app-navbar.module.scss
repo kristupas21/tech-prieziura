@@ -1,0 +1,14 @@
+.header {
+  box-shadow: var(--mantine-shadow-xl);
+  position: fixed;
+  width: 100%;
+  background-color: var(--mantine-color-primary-0);
+  z-index: var(--mantine-z-index-max);
+  top: 0;
+}
+
+.content {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+

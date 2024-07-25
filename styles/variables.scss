@@ -1,0 +1,72 @@
+@import './mixins';
+
+// Fonts
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+// Breakpoints and containers
+:root {
+  --mobile: 768px;
+}
+
+// Spatial sizing
+:root {
+  // Fonts sizes
+  --font-xx: 0.6rem;
+  --font-xs: 0.75rem;
+  --font-s: 0.875rem;
+  --font-r-s: 1rem;
+  --font-r: 1rem;
+  --font-m: 1.125rem;
+  --font-l: 2rem;
+  --font-xl-l: 3.75rem;
+  --font-xl: 3.75rem;
+
+  // Marging/padding sizes
+  --size-4-: 0.25rem;
+  --size-3-: 0.35rem;
+  --size-2-: 0.5rem;
+  --size-1x: 1rem;
+  --size-2x: 2rem;
+  --size-3x: 3rem;
+  --size-4x: 4rem;
+  --size-5x: 5rem;
+  --size-6x: 7rem;
+  --size-7x: 10rem;
+}
+
+// Spatial sizing
+@include media($max: $mobile) {
+  :root {
+    // Fonts sizes
+    --font-xx: 0.6rem;
+    --font-xs: 0.75rem;
+    --font-s: 0.875rem;
+    --font-r-s: 0.875rem;
+    --font-r: 0.95rem;
+    --font-m: 1rem;
+    --font-l: 2rem;
+    --font-xl-l: 2rem;
+    --font-xl: 2.75rem;
+
+    // Marging/padding sizes
+    --size-4-: 0.25rem;
+    --size-3-: 0.35rem;
+    --size-2-: 0.5rem;
+    --size-1x: 1rem;
+    --size-2x: 1.5rem;
+    --size-3x: 2rem;
+    --size-4x: 3rem;
+    --size-5x: 4rem;
+    --size-6x: 5.5rem;
+    --size-7x: 7rem;
+  }
+}
+
+// Colors
+:root {
+  --primary: #331B3F;
+}
