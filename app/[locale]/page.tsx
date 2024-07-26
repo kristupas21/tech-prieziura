@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <main>
-      <PageSection title={t('page.intro')} spaceAfter="md">
+      <PageSection spaceAfter="md">
         <SectionStats />
       </PageSection>
       <PageSection>

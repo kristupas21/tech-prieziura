@@ -39,7 +39,7 @@ export default function SectionStats() {
   return (
   // @ts-ignore
     <SimpleGrid cols={{ base: 1, sm: 2 }} m={0} spacing="md" align="center">
-      <StatItem count={30} hero={` ${t('page.exp')}`} sub={t('page.exp1')} />
+      <StatItem count={38} hero={` ${t('page.exp')}`} sub={t('page.exp1')} />
       <StatItem count={100} hero="+" sub={t('page.objects')} />
     </SimpleGrid>
   );

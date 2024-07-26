@@ -12,6 +12,7 @@ import { useMenuScroll } from '@/app/hooks/MenuScrollCtx';
 import { IconEdit, IconHome } from '@tabler/icons-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import TpLogo from '@/assets/tp-logo.svg';
 import styles from './app-navbar.module.scss';
 
 const vars = variables as { mobile: string };
@@ -52,10 +53,10 @@ export default function NavBar() {
     <header className={styles.header}>
       <div className={styles.content}>
         <Flex mih={50} gap="md" align="center" justify="space-between" p="xs" py={4}>
-          <Flex direction="column" p="sm" gap={4}>
-            <Center c="primary.8" fw="600" fz="sm" w="100%">
+          <Flex direction="column" p={0} gap={4}>
+            <Center fw="600" fz="sm" w="100%" c="primary.9">
               <Link href="/">
-                tech-prieziura.lt
+                <TpLogo width={120} />
               </Link>
             </Center>
           </Flex>
